@@ -1,7 +1,23 @@
-[{
-    "name": "startdate",
-    "type": "date-time"
-}, {
-    "name": "regularhrs",
-    "type": "number"
-}]
+[
+    {
+        "name": "regularhrs",
+        "type": "number"
+    },
+    {
+        "name": "_rowstamp"
+        "type": "number"
+    },
+    {
+        "name": "href"
+        "type": "string"
+    },
+    {
+        "name": "startdate",
+        "type": "date-time"
+    },
+    {
+        "name": "laborcode"
+        "type": "string"
+    }
+    
+]
