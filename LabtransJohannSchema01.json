@@ -1,1 +1,7 @@
-
+[{
+    "name": "startdate",
+    "type": "date-time"
+}, {
+    "name": "regularhrs",
+    "type": "number"
+}]
