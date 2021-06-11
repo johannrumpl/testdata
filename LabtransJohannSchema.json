@@ -1,0 +1,37 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "member": {
+            "type": "array",
+            "items": [{
+                "type": "object",
+                "properties": {
+                    "regularhrs": {"type": "number"},
+                    "_rowstamp": {"type": "string"},
+                    "href": {"type": "string"},
+                    "startdate": {"type": "date-time"},
+                    "laborcode": {"type": "string"}
+                },
+                "required": [
+                    "regularhrs",
+                    "_rowstamp",
+                    "href",
+                    "startdate",
+                    "laborcode"
+                ]
+            }]
+        },
+        "href": {"type": "string"},
+        "responseInfo": {
+            "type": "object",
+            "properties": {"href": {"type": "string"}},
+            "required": ["href"]
+        }
+    },
+    "required": [
+        "member",
+        "href",
+        "responseInfo"
+    ]
+}
