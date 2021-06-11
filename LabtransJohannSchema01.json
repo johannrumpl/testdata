@@ -4,11 +4,11 @@
         "type": "number"
     },
     {
-        "name": "_rowstamp"
+        "name": "_rowstamp",
         "type": "number"
     },
     {
-        "name": "href"
+        "name": "href",
         "type": "string"
     },
     {
@@ -16,7 +16,7 @@
         "type": "date-time"
     },
     {
-        "name": "laborcode"
+        "name": "laborcode",
         "type": "string"
     }
     
